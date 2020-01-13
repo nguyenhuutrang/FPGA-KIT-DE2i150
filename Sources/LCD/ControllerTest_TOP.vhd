@@ -54,7 +54,7 @@ architecture Behavioral of ControllerTest_TOP is
 	
 	-- These lines can be configured to be input from anything. 
 	-- 8 bits per character
-	signal top_line : std_logic_vector(127 downto 0) := x"4443452063736c61622d353035202020"; -- Translates to Mayur's FPGA
+	signal top_line : std_logic_vector(127 downto 0) := x"4443452063736c61622d353035202020"; -- gg search: hex to text
 	signal bottom_line : std_logic_vector(127 downto 0) := x"54657374206279205975692020202020";
 
 begin
